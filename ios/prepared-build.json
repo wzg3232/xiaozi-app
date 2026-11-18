@@ -1,0 +1,246 @@
+{
+  "preparedAt": "2026-11-14T06:32:45.329Z",
+  "appName": "小紫在",
+  "version": "1.4.1",
+  "buildNumber": 12,
+  "server": "https://chat.pvdust.com",
+  "minimumIos": "15.0",
+  "requiredXcode": "26.0+",
+  "nativeCompilationPerformed": false,
+  "appleSigningPerformed": false,
+  "iphoneDeviceTestPerformed": false,
+  "checks": {
+    "xcodeProjectParses": true,
+    "versionSettingsMatch": true,
+    "displayNameMatches": true,
+    "iphonePortraitOnly": true,
+    "permissionDescriptionsPresent": true,
+    "swiftPackagePinned": true,
+    "sharedArchiveSchemePresent": true,
+    "bundledFilesMatch": true,
+    "fixedHttpsServer": true,
+    "appIconFilesPresent": true
+  },
+  "files": [
+    {
+      "path": "assets/app-v11.js",
+      "bytes": 49974,
+      "sha256": "2d9b7ca9090f59935d65883be0e974dba7d0ff06ab4f39466e9fcd1334228cb5"
+    },
+    {
+      "path": "assets/app-v12.js",
+      "bytes": 127496,
+      "sha256": "8e28d95e27df2aa2bae6e08a916db1bbf7affaa775df5df4559da388ca747636"
+    },
+    {
+      "path": "assets/app.css",
+      "bytes": 15080,
+      "sha256": "56d95f0a3bab6b72d2877475b9d5969eb42e42226de1079fccb059b620f8fd4d"
+    },
+    {
+      "path": "assets/app.js",
+      "bytes": 281,
+      "sha256": "e51e3d76717fb6367726147c6f52c25bf4c7473b5cc92e6edbc954ddeb142841"
+    },
+    {
+      "path": "assets/audio-capture.js",
+      "bytes": 652,
+      "sha256": "ecc2657f0804e8c18c1b699e0a5aa92b6164969dcad5439fd2de203c7a52c1c3"
+    },
+    {
+      "path": "assets/boot.js",
+      "bytes": 1370,
+      "sha256": "098ec8e715f021ac497777cc2ddedafcd02bcdb5893dc7a3d53fe861347dcb00"
+    },
+    {
+      "path": "assets/brand-flower.png",
+      "bytes": 79517,
+      "sha256": "6c26aba923ccf37d096245b5da0a648771523b6854b1fa187fb6220d39354f57"
+    },
+    {
+      "path": "assets/brand-icon.png",
+      "bytes": 69216,
+      "sha256": "1e9e4ae12ead96e026f911e1e4922fe13fd58df4fa2e00cd4aa3001b4a2200ee"
+    },
+    {
+      "path": "assets/brand-mascot.jpg",
+      "bytes": 36010,
+      "sha256": "cda5e36283ebec653000e38043c373f78b044782256cc22ba53b58ca1de7c125"
+    },
+    {
+      "path": "assets/calls.css",
+      "bytes": 3375,
+      "sha256": "08c58887ed89ceb1962fa9c71657a8470a5c57c168fedd841f7f04f1c4e7cd09"
+    },
+    {
+      "path": "assets/calls.js",
+      "bytes": 14574,
+      "sha256": "922bf9339febef13bc1359fcfb0973aede0aee866737d3e7559185b8e5eeae6a"
+    },
+    {
+      "path": "assets/chat-viewport.js",
+      "bytes": 3921,
+      "sha256": "0f98925976cbc3d3c7f0a81d5f9e5cb79d780627bfd275d5fec8b22cc05444e8"
+    },
+    {
+      "path": "assets/config.js",
+      "bytes": 81,
+      "sha256": "3ff59eaca70c105dc8078b4cde325c9c337c15314d84ee23efe1139ce8bb8622"
+    },
+    {
+      "path": "assets/enterprise-data.css",
+      "bytes": 10514,
+      "sha256": "9e4972feda461047ed845179fa3ac1c4a1393c663d54a8f9f34a2f1a5583b252"
+    },
+    {
+      "path": "assets/enterprise-data.js",
+      "bytes": 14037,
+      "sha256": "e6c8e375acf61e81524c54c298402101102d2713db3c1c135aa2b409e92816ca"
+    },
+    {
+      "path": "assets/enterprise.css",
+      "bytes": 19791,
+      "sha256": "4eb8298579555c2e6612c05b1b2f8af8d264d693c29ead2dc6d6ce339cc895c9"
+    },
+    {
+      "path": "assets/enterprise.js",
+      "bytes": 27818,
+      "sha256": "8fb0a7abcd3b8ae97270f22f0172a6bef35c5e4246ded8dab5930d0e135da04c"
+    },
+    {
+      "path": "assets/features-v12.css",
+      "bytes": 18162,
+      "sha256": "51857dc9fe4a9e68c42bebe24447ab3a88ba1cdf0553cfdf99ae0a065a0e85f0"
+    },
+    {
+      "path": "assets/features.css",
+      "bytes": 6986,
+      "sha256": "9413109f82aeaea86211ea5b980808dad739f18397c007f60405caf8d48bce25"
+    },
+    {
+      "path": "assets/icon.svg",
+      "bytes": 92444,
+      "sha256": "00a0f155b3b2ee06f9951f0fb6fbeaf653e5b6a14e5f7527ce5a2f92bf3a5139"
+    },
+    {
+      "path": "assets/icons.js",
+      "bytes": 800,
+      "sha256": "c0aacc697871e41915acfdcd8c119a49dc82142d6499cf56ef322c3730ceb548"
+    },
+    {
+      "path": "assets/layout.css",
+      "bytes": 5055,
+      "sha256": "da50989093a9898437630883875e9169145671ffb1cf4125def9aadd3f364408"
+    },
+    {
+      "path": "assets/MaShanZheng-OFL.txt",
+      "bytes": 4397,
+      "sha256": "d7bdb1cee215b689e23c2f95672a6084c790542170648267a55114103d756a08"
+    },
+    {
+      "path": "assets/native-phone.css",
+      "bytes": 7398,
+      "sha256": "122b834cb711d9f9e27fe7aa9d29144a17ebb5feff223cfc2efdcd66c81ffd7a"
+    },
+    {
+      "path": "assets/native.js",
+      "bytes": 5129,
+      "sha256": "455246ae1449ee06f78346571000f3f1b5a2ba626174b893833149cdd2d4bb67"
+    },
+    {
+      "path": "assets/NotoSerifSC-OFL.txt",
+      "bytes": 4350,
+      "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6"
+    },
+    {
+      "path": "assets/qr.js",
+      "bytes": 7415,
+      "sha256": "baf4f6c6743e437e99243f367e92fee2445bebc54c0f80eee4d6f3836bacd8c5"
+    },
+    {
+      "path": "assets/reminders.css",
+      "bytes": 1514,
+      "sha256": "3f95610401cdccad0fc84186f6eb748451252d1191af226fd85aa68261cbc5dd"
+    },
+    {
+      "path": "assets/reminders.js",
+      "bytes": 1869,
+      "sha256": "f0d8246773dc6bd80038d8221c3531f25d035c4f484f84d09043aa4c54e61634"
+    },
+    {
+      "path": "assets/vendor-jsqr.js",
+      "bytes": 256974,
+      "sha256": "fe9b048dd699a529dc55e2e14b556b82b85e2c72fc7a85ccce89429ba162d8e5"
+    },
+    {
+      "path": "assets/vendor-qrcode.js",
+      "bytes": 51907,
+      "sha256": "ea91d7118a5395289170da848b7c6758b996163bfbccf312591ab65a4911b7c0"
+    },
+    {
+      "path": "assets/welcome-script.ttf",
+      "bytes": 5532,
+      "sha256": "4dc7d311899adca3ccfeabbb026a3dfb34ae9e85ba066fa1f1f5a3830a2ffc94"
+    },
+    {
+      "path": "assets/welcome-song.ttf",
+      "bytes": 6380,
+      "sha256": "9d6feb5fdc6eb8197e2c54f197b23b5a68c8afe3bf785af6ec8060f6939a1431"
+    },
+    {
+      "path": "assets/welcome.css",
+      "bytes": 1946,
+      "sha256": "90bf25d2b2efb21d7d2c0a78c1c1969e79809090e6b6dfe1f0179ecb3d304fce"
+    },
+    {
+      "path": "assets/welcome.js",
+      "bytes": 3440,
+      "sha256": "b59ad72061e43aaf30e466aabdae43d294248fa384fc4ef9a4c316d81ce1baef"
+    },
+    {
+      "path": "assets/workflows.css",
+      "bytes": 15859,
+      "sha256": "258dd17c6c8e6b13fd9f4cb59b4f3a1482a1bb4e50e7811306dffa362b53bbe1"
+    },
+    {
+      "path": "assets/workflows.js",
+      "bytes": 16396,
+      "sha256": "f0fb625435944144b5c1239e421775a3975a8d824ee5bd80a3aa0a65c830a6ea"
+    },
+    {
+      "path": "build-info.json",
+      "bytes": 94,
+      "sha256": "922b48ceff98d5abcb4d07072b919b27098d9f93282372380ddaf5338d3a6803"
+    },
+    {
+      "path": "home.html",
+      "bytes": 9976,
+      "sha256": "66e6bd18025ee81eb9e8cc57a611a87170f8a52bf3dea3ba6fbd53d0c1947aa2"
+    },
+    {
+      "path": "index.html",
+      "bytes": 2683,
+      "sha256": "73818f9e3257a7b2393c5f699ed687b25251bf1f626080726dccc878d90775ae"
+    },
+    {
+      "path": "install.html",
+      "bytes": 7349,
+      "sha256": "4d20f12117993ee785232100968027fe6569f13a38fa47beccf870fa4300c2ca"
+    },
+    {
+      "path": "showcase.html",
+      "bytes": 1481,
+      "sha256": "79a78ad4e28630341b417ffbc21bd8999986f33843cb32dceefb7a16af7bab11"
+    },
+    {
+      "path": "site/download-code.svg",
+      "bytes": 11594,
+      "sha256": "9998e9019d7b85bb4c6fe2b8d5e60c988d5e4edc5ff6ec552fc5133d606e163d"
+    },
+    {
+      "path": "site/home.css",
+      "bytes": 14055,
+      "sha256": "ffa2f39945f80854f8559c32b313bc9d0df67c44b03d40d16b34fb43fa87c85d"
+    }
+  ]
+}

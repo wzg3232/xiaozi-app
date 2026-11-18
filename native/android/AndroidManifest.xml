@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.ichat.studio" android:versionCode="12" android:versionName="1.4.1">
+  <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="36" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.RECORD_AUDIO" />
+  <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+  <uses-permission android:name="android.permission.VIBRATE" />
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+  <uses-feature android:name="android.hardware.camera" android:required="false" />
+  <uses-feature android:name="android.hardware.camera.any" android:required="false" />
+  <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+  <uses-feature android:name="android.hardware.microphone" android:required="false" />
+  <uses-feature android:name="android.hardware.location" android:required="false" />
+  <uses-feature android:name="android.hardware.location.gps" android:required="false" />
+  <uses-feature android:name="android.hardware.location.network" android:required="false" />
+  <application android:label="小紫在" android:icon="@drawable/ic_launcher" android:allowBackup="false" android:usesCleartextTraffic="true" android:hardwareAccelerated="true" android:theme="@style/XiaoziTheme" android:supportsRtl="true" android:enableOnBackInvokedCallback="true">
+    <activity android:name="com.ichat.studio.MainActivity" android:exported="true" android:screenOrientation="portrait" android:configChanges="orientation|screenSize|keyboardHidden" android:windowSoftInputMode="adjustResize">
+      <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter>
+    </activity>
+    <provider android:name="com.ichat.studio.CameraCaptureProvider" android:authorities="com.ichat.studio.camera" android:exported="false" android:grantUriPermissions="true" />
+    <service android:name="com.ichat.studio.MessageNotificationService" android:exported="false" android:foregroundServiceType="dataSync" android:stopWithTask="false" />
+  </application>
+</manifest>

@@ -1,0 +1,18 @@
+iChat 1.2.0
+
+The Android APK contains the original iChat Java activity and bundled HTML/CSS/JavaScript interface. Its WebView engine is supplied by Android.
+
+The iOS project uses Capacitor 8.5.3 and its Swift Package Manager integration (MIT license).
+https://github.com/ionic-team/capacitor
+
+The server uses ws 8.18.3 (MIT license) and Node.js built-in HTTP, crypto and SQLite APIs.
+https://github.com/websockets/ws
+https://nodejs.org/
+
+Personal QR codes use qrcode-generator 2.0.4 (MIT, Copyright (c) 2009 Kazuhiko Arase).
+https://github.com/kazuhikoarase/qrcode-generator
+QR image scanning uses jsQR 1.4.0 (Apache License 2.0).
+https://github.com/cozmo/jsQR
+Their pinned JavaScript is bundled locally in browser, Android and iOS assets.
+
+Dependencies are acquired with npm or Swift Package Manager; their respective license and notice files are included in those distributions. Android SDK, JDK, REA, JADX and FFmpeg binaries, as well as the original WeChat APK, are not included in the source or server delivery archives.

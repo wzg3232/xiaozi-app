@@ -1,0 +1,8 @@
+{
+  "appId": "com.ichat.studio",
+  "appName": "小紫在",
+  "webDir": "dist",
+  "server": { "androidScheme": "http", "cleartext": true },
+  "android": { "backgroundColor": "#faf7fd" },
+  "ios": { "backgroundColor": "#faf7fd", "contentInset": "automatic" }
+}

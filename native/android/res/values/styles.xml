@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="XiaoziTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+    <item name="android:colorAccent">#7b1989</item>
+    <item name="android:colorControlActivated">#7b1989</item>
+    <item name="android:colorPrimary">#7b1989</item>
+    <item name="android:colorPrimaryDark">#5a1466</item>
+    <item name="android:windowBackground">#faf7fd</item>
+    <item name="android:statusBarColor">#faf7fd</item>
+    <item name="android:navigationBarColor">#faf7fd</item>
+    <item name="android:windowLightStatusBar">true</item>
+  </style>
+</resources>

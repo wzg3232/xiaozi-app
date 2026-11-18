@@ -1,0 +1,12 @@
+import {spawn} from 'node:child_process';
+import {appendFileSync,mkdirSync} from 'node:fs';
+import {resolve,dirname} from 'node:path';
+const [title,command,...args]=process.argv.slice(2);
+if(!title||!command)throw new Error('Usage: record-step.mjs TITLE COMMAND [ARGS...]');
+const log=resolve(import.meta.dirname,'../recording/events.jsonl');mkdirSync(dirname(log),{recursive:true});
+const event=(type,text)=>appendFileSync(log,JSON.stringify({time:new Date().toISOString(),type,title,text})+'\n');
+event('start',`${command} ${args.join(' ')}`);
+const child=spawn(command,args,{cwd:process.cwd(),windowsHide:true,stdio:['inherit','pipe','pipe']});
+for(const [stream,destination] of [[child.stdout,process.stdout],[child.stderr,process.stderr]])stream.on('data',chunk=>{destination.write(chunk);event('output',chunk.toString())});
+child.on('error',error=>{console.error(error.message);event('error',error.message);process.exitCode=1});
+child.on('exit',code=>{event(code===0?'success':'error',`退出代码 ${code}`);process.exitCode=code??1});

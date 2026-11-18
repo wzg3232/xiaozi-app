@@ -1,0 +1,1100 @@
+{
+  "name": "小紫在",
+  "version": "1.4.1",
+  "exportDate": "2026-11-18",
+  "androidVersionCode": 12,
+  "iosBuildNumber": 12,
+  "matchingPriorReleaseSourceFiles": 207,
+  "files": [
+    {
+      "path": ".dockerignore",
+      "bytes": 91,
+      "sha256": "516a2799b41dea514d8dc74be2f2de77193bf6cf202fd4abc2c004b02375b259"
+    },
+    {
+      "path": ".env.example",
+      "bytes": 511,
+      "sha256": "f1d20ff66d20026facb52ab73df9d2baf9ddf4cbac4a1e2fda37e84ed673dad8"
+    },
+    {
+      "path": ".env.production.example",
+      "bytes": 97,
+      "sha256": "54ced287dd86d79bcc9851e39d575ee841b9119b3707c5bb1812bec1af770c5c"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 295,
+      "sha256": "92792e7c1a5d5471b8eb71a32e7d44b390e09e562cbb38809581fadad1e2e4a1"
+    },
+    {
+      "path": "企业平台与小紫接入说明.md",
+      "bytes": 8841,
+      "sha256": "0c3fe70fa974da9215c6395de3dfa650f569f78ceb16b69d8093931dc8391e9c"
+    },
+    {
+      "path": "源码与构建说明.txt",
+      "bytes": 3399,
+      "sha256": "57ad0a49c3776ecf9a0072389737515f1f931a62b5d77004a53c2557b3e44c26"
+    },
+    {
+      "path": "capacitor.config.json",
+      "bytes": 259,
+      "sha256": "78013e5cb7955e43ccab4a7c600e39e9067f40d62a88249338430c7030fef60f"
+    },
+    {
+      "path": "compose.production.yaml",
+      "bytes": 494,
+      "sha256": "79af08b73cf0e0a8f53c73fd4aa88f60a5857b05c59b707d8a010d96b52bc192"
+    },
+    {
+      "path": "compose.yaml",
+      "bytes": 248,
+      "sha256": "85af6a8db83ff1e2fbd5bbac5122b740dd25a499f7ca57f04f1ba0c22155a847"
+    },
+    {
+      "path": "deploy/Caddyfile",
+      "bytes": 180,
+      "sha256": "984b66494df739168ac4ea9e0ead04d85ba565f540f1f562c13e34f9e0dbe4ee"
+    },
+    {
+      "path": "dist/assets/app-v11.js",
+      "bytes": 49974,
+      "sha256": "2d9b7ca9090f59935d65883be0e974dba7d0ff06ab4f39466e9fcd1334228cb5"
+    },
+    {
+      "path": "dist/assets/app-v12.js",
+      "bytes": 127496,
+      "sha256": "8e28d95e27df2aa2bae6e08a916db1bbf7affaa775df5df4559da388ca747636"
+    },
+    {
+      "path": "dist/assets/app.css",
+      "bytes": 15080,
+      "sha256": "56d95f0a3bab6b72d2877475b9d5969eb42e42226de1079fccb059b620f8fd4d"
+    },
+    {
+      "path": "dist/assets/app.js",
+      "bytes": 281,
+      "sha256": "e51e3d76717fb6367726147c6f52c25bf4c7473b5cc92e6edbc954ddeb142841"
+    },
+    {
+      "path": "dist/assets/audio-capture.js",
+      "bytes": 652,
+      "sha256": "ecc2657f0804e8c18c1b699e0a5aa92b6164969dcad5439fd2de203c7a52c1c3"
+    },
+    {
+      "path": "dist/assets/boot.js",
+      "bytes": 1370,
+      "sha256": "098ec8e715f021ac497777cc2ddedafcd02bcdb5893dc7a3d53fe861347dcb00"
+    },
+    {
+      "path": "dist/assets/brand-flower.png",
+      "bytes": 79517,
+      "sha256": "6c26aba923ccf37d096245b5da0a648771523b6854b1fa187fb6220d39354f57"
+    },
+    {
+      "path": "dist/assets/brand-icon.png",
+      "bytes": 69216,
+      "sha256": "1e9e4ae12ead96e026f911e1e4922fe13fd58df4fa2e00cd4aa3001b4a2200ee"
+    },
+    {
+      "path": "dist/assets/brand-mascot.jpg",
+      "bytes": 36010,
+      "sha256": "cda5e36283ebec653000e38043c373f78b044782256cc22ba53b58ca1de7c125"
+    },
+    {
+      "path": "dist/assets/calls.css",
+      "bytes": 3375,
+      "sha256": "08c58887ed89ceb1962fa9c71657a8470a5c57c168fedd841f7f04f1c4e7cd09"
+    },
+    {
+      "path": "dist/assets/calls.js",
+      "bytes": 14574,
+      "sha256": "922bf9339febef13bc1359fcfb0973aede0aee866737d3e7559185b8e5eeae6a"
+    },
+    {
+      "path": "dist/assets/chat-viewport.js",
+      "bytes": 3921,
+      "sha256": "0f98925976cbc3d3c7f0a81d5f9e5cb79d780627bfd275d5fec8b22cc05444e8"
+    },
+    {
+      "path": "dist/assets/config.js",
+      "bytes": 81,
+      "sha256": "3ff59eaca70c105dc8078b4cde325c9c337c15314d84ee23efe1139ce8bb8622"
+    },
+    {
+      "path": "dist/assets/enterprise-data.css",
+      "bytes": 10514,
+      "sha256": "9e4972feda461047ed845179fa3ac1c4a1393c663d54a8f9f34a2f1a5583b252"
+    },
+    {
+      "path": "dist/assets/enterprise-data.js",
+      "bytes": 14037,
+      "sha256": "e6c8e375acf61e81524c54c298402101102d2713db3c1c135aa2b409e92816ca"
+    },
+    {
+      "path": "dist/assets/enterprise.css",
+      "bytes": 19791,
+      "sha256": "4eb8298579555c2e6612c05b1b2f8af8d264d693c29ead2dc6d6ce339cc895c9"
+    },
+    {
+      "path": "dist/assets/enterprise.js",
+      "bytes": 27818,
+      "sha256": "8fb0a7abcd3b8ae97270f22f0172a6bef35c5e4246ded8dab5930d0e135da04c"
+    },
+    {
+      "path": "dist/assets/features-v12.css",
+      "bytes": 18162,
+      "sha256": "51857dc9fe4a9e68c42bebe24447ab3a88ba1cdf0553cfdf99ae0a065a0e85f0"
+    },
+    {
+      "path": "dist/assets/features.css",
+      "bytes": 6986,
+      "sha256": "9413109f82aeaea86211ea5b980808dad739f18397c007f60405caf8d48bce25"
+    },
+    {
+      "path": "dist/assets/icon.svg",
+      "bytes": 92444,
+      "sha256": "00a0f155b3b2ee06f9951f0fb6fbeaf653e5b6a14e5f7527ce5a2f92bf3a5139"
+    },
+    {
+      "path": "dist/assets/icons.js",
+      "bytes": 800,
+      "sha256": "c0aacc697871e41915acfdcd8c119a49dc82142d6499cf56ef322c3730ceb548"
+    },
+    {
+      "path": "dist/assets/layout.css",
+      "bytes": 5055,
+      "sha256": "da50989093a9898437630883875e9169145671ffb1cf4125def9aadd3f364408"
+    },
+    {
+      "path": "dist/assets/MaShanZheng-OFL.txt",
+      "bytes": 4397,
+      "sha256": "d7bdb1cee215b689e23c2f95672a6084c790542170648267a55114103d756a08"
+    },
+    {
+      "path": "dist/assets/native-phone.css",
+      "bytes": 7398,
+      "sha256": "122b834cb711d9f9e27fe7aa9d29144a17ebb5feff223cfc2efdcd66c81ffd7a"
+    },
+    {
+      "path": "dist/assets/native.js",
+      "bytes": 5129,
+      "sha256": "455246ae1449ee06f78346571000f3f1b5a2ba626174b893833149cdd2d4bb67"
+    },
+    {
+      "path": "dist/assets/NotoSerifSC-OFL.txt",
+      "bytes": 4350,
+      "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6"
+    },
+    {
+      "path": "dist/assets/qr.js",
+      "bytes": 7415,
+      "sha256": "baf4f6c6743e437e99243f367e92fee2445bebc54c0f80eee4d6f3836bacd8c5"
+    },
+    {
+      "path": "dist/assets/reminders.css",
+      "bytes": 1514,
+      "sha256": "3f95610401cdccad0fc84186f6eb748451252d1191af226fd85aa68261cbc5dd"
+    },
+    {
+      "path": "dist/assets/reminders.js",
+      "bytes": 1869,
+      "sha256": "f0d8246773dc6bd80038d8221c3531f25d035c4f484f84d09043aa4c54e61634"
+    },
+    {
+      "path": "dist/assets/vendor-jsqr.js",
+      "bytes": 256974,
+      "sha256": "fe9b048dd699a529dc55e2e14b556b82b85e2c72fc7a85ccce89429ba162d8e5"
+    },
+    {
+      "path": "dist/assets/vendor-qrcode.js",
+      "bytes": 51907,
+      "sha256": "ea91d7118a5395289170da848b7c6758b996163bfbccf312591ab65a4911b7c0"
+    },
+    {
+      "path": "dist/assets/welcome-script.ttf",
+      "bytes": 5532,
+      "sha256": "4dc7d311899adca3ccfeabbb026a3dfb34ae9e85ba066fa1f1f5a3830a2ffc94"
+    },
+    {
+      "path": "dist/assets/welcome-song.ttf",
+      "bytes": 6380,
+      "sha256": "9d6feb5fdc6eb8197e2c54f197b23b5a68c8afe3bf785af6ec8060f6939a1431"
+    },
+    {
+      "path": "dist/assets/welcome.css",
+      "bytes": 1946,
+      "sha256": "90bf25d2b2efb21d7d2c0a78c1c1969e79809090e6b6dfe1f0179ecb3d304fce"
+    },
+    {
+      "path": "dist/assets/welcome.js",
+      "bytes": 3440,
+      "sha256": "b59ad72061e43aaf30e466aabdae43d294248fa384fc4ef9a4c316d81ce1baef"
+    },
+    {
+      "path": "dist/assets/workflows.css",
+      "bytes": 15859,
+      "sha256": "258dd17c6c8e6b13fd9f4cb59b4f3a1482a1bb4e50e7811306dffa362b53bbe1"
+    },
+    {
+      "path": "dist/assets/workflows.js",
+      "bytes": 16396,
+      "sha256": "f0fb625435944144b5c1239e421775a3975a8d824ee5bd80a3aa0a65c830a6ea"
+    },
+    {
+      "path": "dist/build-info.json",
+      "bytes": 94,
+      "sha256": "922b48ceff98d5abcb4d07072b919b27098d9f93282372380ddaf5338d3a6803"
+    },
+    {
+      "path": "dist/home.html",
+      "bytes": 9976,
+      "sha256": "66e6bd18025ee81eb9e8cc57a611a87170f8a52bf3dea3ba6fbd53d0c1947aa2"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 2683,
+      "sha256": "73818f9e3257a7b2393c5f699ed687b25251bf1f626080726dccc878d90775ae"
+    },
+    {
+      "path": "dist/install.html",
+      "bytes": 7349,
+      "sha256": "4d20f12117993ee785232100968027fe6569f13a38fa47beccf870fa4300c2ca"
+    },
+    {
+      "path": "dist/showcase.html",
+      "bytes": 1481,
+      "sha256": "79a78ad4e28630341b417ffbc21bd8999986f33843cb32dceefb7a16af7bab11"
+    },
+    {
+      "path": "dist/site/download-code.svg",
+      "bytes": 11594,
+      "sha256": "9998e9019d7b85bb4c6fe2b8d5e60c988d5e4edc5ff6ec552fc5133d606e163d"
+    },
+    {
+      "path": "dist/site/home.css",
+      "bytes": 14055,
+      "sha256": "ffa2f39945f80854f8559c32b313bc9d0df67c44b03d40d16b34fb43fa87c85d"
+    },
+    {
+      "path": "Dockerfile",
+      "bytes": 334,
+      "sha256": "2f460523292a88c19e1917bab19e06dc6c35c0d6e9c05c404d32a1b3d09380af"
+    },
+    {
+      "path": "docs/1.4.1版本交接说明.txt",
+      "bytes": 4522,
+      "sha256": "f2a10881725ec31e047c5501fa7b9fb468293fa23e9b41e09710c86e01960df1"
+    },
+    {
+      "path": "docs/服务端部署说明.txt",
+      "bytes": 2703,
+      "sha256": "00ea05cb142ce9a7f291de917ab60b8359d1e796b260cefc7d2a561c5b0854ed"
+    },
+    {
+      "path": "docs/iOS制作与安装说明.txt",
+      "bytes": 2403,
+      "sha256": "a933a56c4806524a230e7374bd539a8ae52032c454697de56be4912a0cff983f"
+    },
+    {
+      "path": "ios/.gitignore",
+      "bytes": 206,
+      "sha256": "2b7132a9943d2622e51e656897ca5162f56b121b40b423dedce1fbc699dba88a"
+    },
+    {
+      "path": "ios/App/App.xcodeproj/project.pbxproj",
+      "bytes": 15317,
+      "sha256": "5fcd9bf159432bb3d75b11f23fa5b2a5686521822f79545e852e4ecf152339c4"
+    },
+    {
+      "path": "ios/App/App.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+      "bytes": 238,
+      "sha256": "dfa0f9bb85b95ccba9c6811adadf8cb407fb5d52088e89db83ebc308ec448542"
+    },
+    {
+      "path": "ios/App/App.xcodeproj/xcshareddata/xcschemes/App.xcscheme",
+      "bytes": 2062,
+      "sha256": "7e3aabb794abbb61bf23af626dacd850a3c7549488fb520c05a7da63973defb5"
+    },
+    {
+      "path": "ios/App/App/AppDelegate.swift",
+      "bytes": 2504,
+      "sha256": "481e2ad8672b14acbd3e3df65acdc6d046526ae542b7bec903cf842fc68d9e49"
+    },
+    {
+      "path": "ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-512@2x.png",
+      "bytes": 115732,
+      "sha256": "a5a16407faac5975e99a69990d4aec8ec48de0327ff8ca80a68932659c683067"
+    },
+    {
+      "path": "ios/App/App/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "bytes": 218,
+      "sha256": "5c09bec6eede599b14fa9e4c44b03e7febebc930615a0cd70f02981c09dfe48a"
+    },
+    {
+      "path": "ios/App/App/Assets.xcassets/Contents.json",
+      "bytes": 62,
+      "sha256": "972ec1fd42325872438eb085ac29e94f51c10788ec18ec5549439950866c541d"
+    },
+    {
+      "path": "ios/App/App/Assets.xcassets/Splash.imageset/Contents.json",
+      "bytes": 403,
+      "sha256": "041481917eb249533ac6dd63d283bc6190b2d0642a93deda11b2ed0f6f7b605a"
+    },
+    {
+      "path": "ios/App/App/Assets.xcassets/Splash.imageset/splash-2732x2732-1.png",
+      "bytes": 171041,
+      "sha256": "66414fb1e05cc233c26ec36c106942cb1d91abc29bb6e1e45fef2ffd58a57d2a"
+    },
+    {
+      "path": "ios/App/App/Assets.xcassets/Splash.imageset/splash-2732x2732-2.png",
+      "bytes": 171041,
+      "sha256": "66414fb1e05cc233c26ec36c106942cb1d91abc29bb6e1e45fef2ffd58a57d2a"
+    },
+    {
+      "path": "ios/App/App/Assets.xcassets/Splash.imageset/splash-2732x2732.png",
+      "bytes": 171041,
+      "sha256": "66414fb1e05cc233c26ec36c106942cb1d91abc29bb6e1e45fef2ffd58a57d2a"
+    },
+    {
+      "path": "ios/App/App/Base.lproj/LaunchScreen.storyboard",
+      "bytes": 1994,
+      "sha256": "87a42e842164d75f39cca56a2cf743652f4d8e858f2eba12ae21a8ddcd9a21c6"
+    },
+    {
+      "path": "ios/App/App/Base.lproj/Main.storyboard",
+      "bytes": 1019,
+      "sha256": "7b7dc7acc67134bfaa80e5ce9c9068ba53db5369b9b70248aa7439fc2b09daae"
+    },
+    {
+      "path": "ios/App/App/capacitor.config.json",
+      "bytes": 291,
+      "sha256": "b4699160560dc3be60ba85777a436184ce8b3b0b32b25de25a84990694fddefe"
+    },
+    {
+      "path": "ios/App/App/config.xml",
+      "bytes": 185,
+      "sha256": "e9dcda493e663c5c4db9e3cb3bd968477a6e90aa8840bcbba40d72ed54b767ce"
+    },
+    {
+      "path": "ios/App/App/Info.plist",
+      "bytes": 2685,
+      "sha256": "2df1b6ec2a465d57961cd2241aca0e919bdb497930b428a1c47dffa3b728b242"
+    },
+    {
+      "path": "ios/App/App/public/assets/app-v11.js",
+      "bytes": 49974,
+      "sha256": "2d9b7ca9090f59935d65883be0e974dba7d0ff06ab4f39466e9fcd1334228cb5"
+    },
+    {
+      "path": "ios/App/App/public/assets/app-v12.js",
+      "bytes": 127496,
+      "sha256": "8e28d95e27df2aa2bae6e08a916db1bbf7affaa775df5df4559da388ca747636"
+    },
+    {
+      "path": "ios/App/App/public/assets/app.css",
+      "bytes": 15080,
+      "sha256": "56d95f0a3bab6b72d2877475b9d5969eb42e42226de1079fccb059b620f8fd4d"
+    },
+    {
+      "path": "ios/App/App/public/assets/app.js",
+      "bytes": 281,
+      "sha256": "e51e3d76717fb6367726147c6f52c25bf4c7473b5cc92e6edbc954ddeb142841"
+    },
+    {
+      "path": "ios/App/App/public/assets/audio-capture.js",
+      "bytes": 652,
+      "sha256": "ecc2657f0804e8c18c1b699e0a5aa92b6164969dcad5439fd2de203c7a52c1c3"
+    },
+    {
+      "path": "ios/App/App/public/assets/boot.js",
+      "bytes": 1370,
+      "sha256": "098ec8e715f021ac497777cc2ddedafcd02bcdb5893dc7a3d53fe861347dcb00"
+    },
+    {
+      "path": "ios/App/App/public/assets/brand-flower.png",
+      "bytes": 79517,
+      "sha256": "6c26aba923ccf37d096245b5da0a648771523b6854b1fa187fb6220d39354f57"
+    },
+    {
+      "path": "ios/App/App/public/assets/brand-icon.png",
+      "bytes": 69216,
+      "sha256": "1e9e4ae12ead96e026f911e1e4922fe13fd58df4fa2e00cd4aa3001b4a2200ee"
+    },
+    {
+      "path": "ios/App/App/public/assets/brand-mascot.jpg",
+      "bytes": 36010,
+      "sha256": "cda5e36283ebec653000e38043c373f78b044782256cc22ba53b58ca1de7c125"
+    },
+    {
+      "path": "ios/App/App/public/assets/calls.css",
+      "bytes": 3375,
+      "sha256": "08c58887ed89ceb1962fa9c71657a8470a5c57c168fedd841f7f04f1c4e7cd09"
+    },
+    {
+      "path": "ios/App/App/public/assets/calls.js",
+      "bytes": 14574,
+      "sha256": "922bf9339febef13bc1359fcfb0973aede0aee866737d3e7559185b8e5eeae6a"
+    },
+    {
+      "path": "ios/App/App/public/assets/chat-viewport.js",
+      "bytes": 3921,
+      "sha256": "0f98925976cbc3d3c7f0a81d5f9e5cb79d780627bfd275d5fec8b22cc05444e8"
+    },
+    {
+      "path": "ios/App/App/public/assets/config.js",
+      "bytes": 81,
+      "sha256": "3ff59eaca70c105dc8078b4cde325c9c337c15314d84ee23efe1139ce8bb8622"
+    },
+    {
+      "path": "ios/App/App/public/assets/enterprise-data.css",
+      "bytes": 10514,
+      "sha256": "9e4972feda461047ed845179fa3ac1c4a1393c663d54a8f9f34a2f1a5583b252"
+    },
+    {
+      "path": "ios/App/App/public/assets/enterprise-data.js",
+      "bytes": 14037,
+      "sha256": "e6c8e375acf61e81524c54c298402101102d2713db3c1c135aa2b409e92816ca"
+    },
+    {
+      "path": "ios/App/App/public/assets/enterprise.css",
+      "bytes": 19791,
+      "sha256": "4eb8298579555c2e6612c05b1b2f8af8d264d693c29ead2dc6d6ce339cc895c9"
+    },
+    {
+      "path": "ios/App/App/public/assets/enterprise.js",
+      "bytes": 27818,
+      "sha256": "8fb0a7abcd3b8ae97270f22f0172a6bef35c5e4246ded8dab5930d0e135da04c"
+    },
+    {
+      "path": "ios/App/App/public/assets/features-v12.css",
+      "bytes": 18162,
+      "sha256": "51857dc9fe4a9e68c42bebe24447ab3a88ba1cdf0553cfdf99ae0a065a0e85f0"
+    },
+    {
+      "path": "ios/App/App/public/assets/features.css",
+      "bytes": 6986,
+      "sha256": "9413109f82aeaea86211ea5b980808dad739f18397c007f60405caf8d48bce25"
+    },
+    {
+      "path": "ios/App/App/public/assets/icon.svg",
+      "bytes": 92444,
+      "sha256": "00a0f155b3b2ee06f9951f0fb6fbeaf653e5b6a14e5f7527ce5a2f92bf3a5139"
+    },
+    {
+      "path": "ios/App/App/public/assets/icons.js",
+      "bytes": 800,
+      "sha256": "c0aacc697871e41915acfdcd8c119a49dc82142d6499cf56ef322c3730ceb548"
+    },
+    {
+      "path": "ios/App/App/public/assets/layout.css",
+      "bytes": 5055,
+      "sha256": "da50989093a9898437630883875e9169145671ffb1cf4125def9aadd3f364408"
+    },
+    {
+      "path": "ios/App/App/public/assets/MaShanZheng-OFL.txt",
+      "bytes": 4397,
+      "sha256": "d7bdb1cee215b689e23c2f95672a6084c790542170648267a55114103d756a08"
+    },
+    {
+      "path": "ios/App/App/public/assets/native-phone.css",
+      "bytes": 7398,
+      "sha256": "122b834cb711d9f9e27fe7aa9d29144a17ebb5feff223cfc2efdcd66c81ffd7a"
+    },
+    {
+      "path": "ios/App/App/public/assets/native.js",
+      "bytes": 5129,
+      "sha256": "455246ae1449ee06f78346571000f3f1b5a2ba626174b893833149cdd2d4bb67"
+    },
+    {
+      "path": "ios/App/App/public/assets/NotoSerifSC-OFL.txt",
+      "bytes": 4350,
+      "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6"
+    },
+    {
+      "path": "ios/App/App/public/assets/qr.js",
+      "bytes": 7415,
+      "sha256": "baf4f6c6743e437e99243f367e92fee2445bebc54c0f80eee4d6f3836bacd8c5"
+    },
+    {
+      "path": "ios/App/App/public/assets/reminders.css",
+      "bytes": 1514,
+      "sha256": "3f95610401cdccad0fc84186f6eb748451252d1191af226fd85aa68261cbc5dd"
+    },
+    {
+      "path": "ios/App/App/public/assets/reminders.js",
+      "bytes": 1869,
+      "sha256": "f0d8246773dc6bd80038d8221c3531f25d035c4f484f84d09043aa4c54e61634"
+    },
+    {
+      "path": "ios/App/App/public/assets/vendor-jsqr.js",
+      "bytes": 256974,
+      "sha256": "fe9b048dd699a529dc55e2e14b556b82b85e2c72fc7a85ccce89429ba162d8e5"
+    },
+    {
+      "path": "ios/App/App/public/assets/vendor-qrcode.js",
+      "bytes": 51907,
+      "sha256": "ea91d7118a5395289170da848b7c6758b996163bfbccf312591ab65a4911b7c0"
+    },
+    {
+      "path": "ios/App/App/public/assets/welcome-script.ttf",
+      "bytes": 5532,
+      "sha256": "4dc7d311899adca3ccfeabbb026a3dfb34ae9e85ba066fa1f1f5a3830a2ffc94"
+    },
+    {
+      "path": "ios/App/App/public/assets/welcome-song.ttf",
+      "bytes": 6380,
+      "sha256": "9d6feb5fdc6eb8197e2c54f197b23b5a68c8afe3bf785af6ec8060f6939a1431"
+    },
+    {
+      "path": "ios/App/App/public/assets/welcome.css",
+      "bytes": 1946,
+      "sha256": "90bf25d2b2efb21d7d2c0a78c1c1969e79809090e6b6dfe1f0179ecb3d304fce"
+    },
+    {
+      "path": "ios/App/App/public/assets/welcome.js",
+      "bytes": 3440,
+      "sha256": "b59ad72061e43aaf30e466aabdae43d294248fa384fc4ef9a4c316d81ce1baef"
+    },
+    {
+      "path": "ios/App/App/public/assets/workflows.css",
+      "bytes": 15859,
+      "sha256": "258dd17c6c8e6b13fd9f4cb59b4f3a1482a1bb4e50e7811306dffa362b53bbe1"
+    },
+    {
+      "path": "ios/App/App/public/assets/workflows.js",
+      "bytes": 16396,
+      "sha256": "f0fb625435944144b5c1239e421775a3975a8d824ee5bd80a3aa0a65c830a6ea"
+    },
+    {
+      "path": "ios/App/App/public/build-info.json",
+      "bytes": 94,
+      "sha256": "922b48ceff98d5abcb4d07072b919b27098d9f93282372380ddaf5338d3a6803"
+    },
+    {
+      "path": "ios/App/App/public/cordova_plugins.js",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ios/App/App/public/cordova.js",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ios/App/App/public/home.html",
+      "bytes": 9976,
+      "sha256": "66e6bd18025ee81eb9e8cc57a611a87170f8a52bf3dea3ba6fbd53d0c1947aa2"
+    },
+    {
+      "path": "ios/App/App/public/index.html",
+      "bytes": 2683,
+      "sha256": "73818f9e3257a7b2393c5f699ed687b25251bf1f626080726dccc878d90775ae"
+    },
+    {
+      "path": "ios/App/App/public/install.html",
+      "bytes": 7349,
+      "sha256": "4d20f12117993ee785232100968027fe6569f13a38fa47beccf870fa4300c2ca"
+    },
+    {
+      "path": "ios/App/App/public/showcase.html",
+      "bytes": 1481,
+      "sha256": "79a78ad4e28630341b417ffbc21bd8999986f33843cb32dceefb7a16af7bab11"
+    },
+    {
+      "path": "ios/App/App/public/site/download-code.svg",
+      "bytes": 11594,
+      "sha256": "9998e9019d7b85bb4c6fe2b8d5e60c988d5e4edc5ff6ec552fc5133d606e163d"
+    },
+    {
+      "path": "ios/App/App/public/site/home.css",
+      "bytes": 14055,
+      "sha256": "ffa2f39945f80854f8559c32b313bc9d0df67c44b03d40d16b34fb43fa87c85d"
+    },
+    {
+      "path": "ios/App/App/SceneDelegate.swift",
+      "bytes": 899,
+      "sha256": "738b9b96bb71d34d80cd8c1183cf7f8f6f2e789c64e46fb5fe6777a35ae12dfd"
+    },
+    {
+      "path": "ios/App/CapApp-SPM/.gitignore",
+      "bytes": 165,
+      "sha256": "4b958e2b4dd57319aadef2551153c74b9cb5ffe9f89d6e3e491122a94913f016"
+    },
+    {
+      "path": "ios/App/CapApp-SPM/Package.swift",
+      "bytes": 698,
+      "sha256": "4dd62aeb951f9e7645377f0d4b0c1a1c3bf3270617258338a941d88e851bed55"
+    },
+    {
+      "path": "ios/App/CapApp-SPM/README.md",
+      "bytes": 162,
+      "sha256": "42c535861f4a866e35f85764ed6af1ea046d6a409bf9852ecb00e5d292a1626e"
+    },
+    {
+      "path": "ios/App/CapApp-SPM/Sources/CapApp-SPM/CapApp-SPM.swift",
+      "bytes": 33,
+      "sha256": "70bf9dafddc35e3877dfb133a996f5be7ccd1e132897a98fdbf4869ff605ece9"
+    },
+    {
+      "path": "ios/capacitor-cordova-ios-plugins/CordovaPluginsResources.podspec",
+      "bytes": 379,
+      "sha256": "6ace787f88f8c8da88526ed2ecdf0b9bd659cdb64f56bd5e73a684e0d26b7e06"
+    },
+    {
+      "path": "ios/capacitor-cordova-ios-plugins/resources/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "ios/capacitor-cordova-ios-plugins/sources/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "ios/debug.xcconfig",
+      "bytes": 23,
+      "sha256": "4838938a72b913b99cfda54a43bbe73f05893071dc6e3702b0adc44794b64272"
+    },
+    {
+      "path": "ios/prepared-build.json",
+      "bytes": 7463,
+      "sha256": "a1e7e17eccb995c543f187536e84126837cfbaf9ed2199ffbd7debd2408ae249"
+    },
+    {
+      "path": "native/android/AndroidManifest.xml",
+      "bytes": 2687,
+      "sha256": "4248dfb2b509d301d640a360417637c36b58b9bb57fe1c47c10f885a9589ad8a"
+    },
+    {
+      "path": "native/android/res/drawable/ic_launcher.png",
+      "bytes": 16210,
+      "sha256": "7fd1fbfd59c1ba4a314ec666c94d3971d28e538532982f368e9f79bcc173c27b"
+    },
+    {
+      "path": "native/android/res/drawable/ic_notification.xml",
+      "bytes": 375,
+      "sha256": "b7e6c59cf36cbb28c41c31439f194ff3d7dd46bd53562805438f3108a83c752d"
+    },
+    {
+      "path": "native/android/res/values/styles.xml",
+      "bytes": 613,
+      "sha256": "52290c4d372811bbf50ebea4fdc82f91cd62ef92ccc2857c033bc4db283c173b"
+    },
+    {
+      "path": "native/android/src/com/ichat/studio/CameraCaptureProvider.java",
+      "bytes": 2891,
+      "sha256": "f88a752b0227875f04165bfca8597fe45f1fc7ec38e6d1a54c0aa88ac1d563f3"
+    },
+    {
+      "path": "native/android/src/com/ichat/studio/MainActivity.java",
+      "bytes": 8870,
+      "sha256": "ea7c6a6cf2f5eee23c9d189494d249d3ca6179b512bb3b1c47bd9c6d73f4844a"
+    },
+    {
+      "path": "native/android/src/com/ichat/studio/MessageNotificationService.java",
+      "bytes": 12537,
+      "sha256": "f70a96372aa857c2453be423cc0902b4d1ce72895f807a16fdc6d299ecf2a38f"
+    },
+    {
+      "path": "native/android/src/com/ichat/studio/NativeActions.java",
+      "bytes": 46940,
+      "sha256": "a152f636ddfb603d284bc77feab4122fab4c44917d287608818b1cb3d5d2af3a"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 44213,
+      "sha256": "742c14c04e0e2f5406f230aec542f2900d031124ca5c36bf46e353598a16e800"
+    },
+    {
+      "path": "package.json",
+      "bytes": 733,
+      "sha256": "b3498ab89b295e856ce6e4adbf3dffc83be2a0bcfb281768f9049190b16ecee2"
+    },
+    {
+      "path": "scripts/build-android-native.ps1",
+      "bytes": 6521,
+      "sha256": "a2058ee0246cb0c04278739fb824baf930360cbf47d931ea5564efb7d87b591b"
+    },
+    {
+      "path": "scripts/build-ios.sh",
+      "bytes": 3256,
+      "sha256": "c4fb2814d1d956b4cf2b6fbd683631e1ef2fd7f580bb2cd948319c1e67f152ba"
+    },
+    {
+      "path": "scripts/build-web.mjs",
+      "bytes": 2291,
+      "sha256": "3e6e197f8cdd93bcaedca394c5f9c3daef50be13437a803b57d40bc435aa9080"
+    },
+    {
+      "path": "scripts/list-server-addresses.mjs",
+      "bytes": 307,
+      "sha256": "b89de9d47d005de7e76bd20ddd103f69fa1735cf5d1195a577a715c952ecb017"
+    },
+    {
+      "path": "scripts/normalize-apk.mjs",
+      "bytes": 10055,
+      "sha256": "0719268fd5f8c929c2526a4eba4730ac06d05782868443b23474da7f3711d3bc"
+    },
+    {
+      "path": "scripts/prepare-ios.mjs",
+      "bytes": 1741,
+      "sha256": "b19c50b39ac22141c59b7415ecb134be63ee0c720aab1e2e6e543e4c66154bce"
+    },
+    {
+      "path": "scripts/record-step.mjs",
+      "bytes": 1043,
+      "sha256": "25ce39f4e9ac6b6b3cb3e2ec963be4e23b9e21525a973480a8108ab2309c5746"
+    },
+    {
+      "path": "scripts/run-tests.mjs",
+      "bytes": 359,
+      "sha256": "894d8a986e473a400297f539cc3dd09233302c775c3fa0ea87460c76a05b59df"
+    },
+    {
+      "path": "scripts/start-demo.ps1",
+      "bytes": 321,
+      "sha256": "01159afdf263662bbe1c2e6a3dae79de64d630c27965746e82853afd225fe4d3"
+    },
+    {
+      "path": "scripts/verify-ios-project.mjs",
+      "bytes": 4428,
+      "sha256": "6ab8e9139c89768f4d77ae50cad454b2a539d011ea551f8309f7e6d2084e97ab"
+    },
+    {
+      "path": "scripts/workbench.mjs",
+      "bytes": 6667,
+      "sha256": "c5e12f304254cfcdb4e6fe706fcf727305312310ff60a099693e15ebdf9feb15"
+    },
+    {
+      "path": "server/calls.mjs",
+      "bytes": 8787,
+      "sha256": "51019b2e2acdf624021af264e7367655857daf161b4d1d0c983bec7c8c12e35f"
+    },
+    {
+      "path": "server/demo-enterprise.mjs",
+      "bytes": 7315,
+      "sha256": "2833d3f840c30ca9fb77c2491b4249c22893866ea98fed3348921074f8bff051"
+    },
+    {
+      "path": "server/enterprise.mjs",
+      "bytes": 20147,
+      "sha256": "a8903923fbdcfc0c6f9b9b47ef013d28129be79919cf04c0e679977da98d570e"
+    },
+    {
+      "path": "server/features.mjs",
+      "bytes": 35692,
+      "sha256": "72e06bdba64ee4ac809fdf706983c8d002bb80942da5762c8809a407073413ff"
+    },
+    {
+      "path": "server/index.mjs",
+      "bytes": 52440,
+      "sha256": "3eb7f460b0d4cd1ebfff3429bae5f2e5054fb8f7670327bba4bd0b419b480ffd"
+    },
+    {
+      "path": "server/workflows.mjs",
+      "bytes": 16805,
+      "sha256": "572d731d5fe0986229e311b380ff5e1ea3128022216610f4ae7f04d54be3c1e7"
+    },
+    {
+      "path": "Start-iChat.cmd",
+      "bytes": 563,
+      "sha256": "ce696071d98969174dbae513e7e10c3252d0136f73ed48b4bdf93a8037ab8458"
+    },
+    {
+      "path": "tests/calls.test.mjs",
+      "bytes": 3275,
+      "sha256": "be7778d598e4a5b76d556a99ad73b063814e02e6a3771f4a00d33a50f413115b"
+    },
+    {
+      "path": "tests/chat-viewport.test.mjs",
+      "bytes": 6922,
+      "sha256": "563fe21bc1d1165fc9c04047f65cd3d3ff0fefa952c2b482c4c3460f4143d8d0"
+    },
+    {
+      "path": "tests/enterprise-data-ui.test.mjs",
+      "bytes": 7299,
+      "sha256": "cf26b7ec376d244498bdac3034c82ac925e2d43b998dde0a0b00c5f7004eaab9"
+    },
+    {
+      "path": "tests/enterprise-demo.test.mjs",
+      "bytes": 6338,
+      "sha256": "dc32500a7f44d1588c80c15c1eeed3ee16faf1c23bc4de354f3c4d66014ddc71"
+    },
+    {
+      "path": "tests/enterprise-server.test.mjs",
+      "bytes": 19209,
+      "sha256": "c90a9c198eb4bf21e006642edb9a04983a3d292105fa1a98fbacb8749adda62a"
+    },
+    {
+      "path": "tests/enterprise-ui.test.mjs",
+      "bytes": 4549,
+      "sha256": "1815f623b7db85f9c15523ff748dceaf88692e30b0183c0c3d3bcf1d25daa0aa"
+    },
+    {
+      "path": "tests/normalize-apk.test.mjs",
+      "bytes": 8490,
+      "sha256": "30b3b8f7e12acc7c709206be4c5a4028c550a63863394a9f0bbc55baa6e5315e"
+    },
+    {
+      "path": "tests/qr.test.mjs",
+      "bytes": 1616,
+      "sha256": "cde3b27518221f61b9bb5c63d54d6d861b6510b89feed8abb1eec77b2692462e"
+    },
+    {
+      "path": "tests/server-v12.test.mjs",
+      "bytes": 33938,
+      "sha256": "3a54e0b31e3c582635777b0c630dfd4a04badcdaf9ef4aeaf1c3e40133c6f59a"
+    },
+    {
+      "path": "tests/server.test.mjs",
+      "bytes": 39366,
+      "sha256": "c34d8eb48239b389ab032746a39dccb1180ddbd3a6885b0c80da01946a4048b9"
+    },
+    {
+      "path": "tests/voice-fixture.ogg",
+      "bytes": 186,
+      "sha256": "8c98b609d868ddb11a30f76c604643615283cc2770d0cd56cf76364b5e2a27c5"
+    },
+    {
+      "path": "tests/welcome.test.mjs",
+      "bytes": 7067,
+      "sha256": "4ee0eb39fe7e30d4ea96bdbe7e6d1980411f7ac498f8f1c8172e5bc8e17ce539"
+    },
+    {
+      "path": "tests/workflows-server.test.mjs",
+      "bytes": 15645,
+      "sha256": "2b6188f02365433d1c056b5e95931f4657668c52e42f455fc93c62efaa61f209"
+    },
+    {
+      "path": "tests/workflows-ui.test.mjs",
+      "bytes": 4035,
+      "sha256": "cd64b1769580105a3cde81bcd8af5a9e387feaacf6cbcd4603d1f80452b3f8ea"
+    },
+    {
+      "path": "THIRD-PARTY-LICENSES.txt",
+      "bytes": 16339,
+      "sha256": "eed743c68e7015df9ad720e8b3da3e2decbd8add79a8164e139d9443c951cc6d"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.txt",
+      "bytes": 1026,
+      "sha256": "8ad1146541f1d73f8f042d73b8d18d11add56953174a552de845732c47d45e32"
+    },
+    {
+      "path": "web/assets/app-v11.js",
+      "bytes": 49955,
+      "sha256": "ca1c0201cd399e0b47c40d1c8886121855ae491486a9614d92cde3611aa80a16"
+    },
+    {
+      "path": "web/assets/app-v12.js",
+      "bytes": 127363,
+      "sha256": "619bc71ddf270d4f6ed7edfbd563fa72a2a27139aa0a6f3632efc2151f18b22c"
+    },
+    {
+      "path": "web/assets/app.css",
+      "bytes": 15080,
+      "sha256": "56d95f0a3bab6b72d2877475b9d5969eb42e42226de1079fccb059b620f8fd4d"
+    },
+    {
+      "path": "web/assets/app.js",
+      "bytes": 243,
+      "sha256": "0c3d369e61eb3495a6c5bf2b175589f98810614fe70a32a260a0394fb250e140"
+    },
+    {
+      "path": "web/assets/audio-capture.js",
+      "bytes": 652,
+      "sha256": "ecc2657f0804e8c18c1b699e0a5aa92b6164969dcad5439fd2de203c7a52c1c3"
+    },
+    {
+      "path": "web/assets/boot.js",
+      "bytes": 1370,
+      "sha256": "098ec8e715f021ac497777cc2ddedafcd02bcdb5893dc7a3d53fe861347dcb00"
+    },
+    {
+      "path": "web/assets/brand-flower.png",
+      "bytes": 79517,
+      "sha256": "6c26aba923ccf37d096245b5da0a648771523b6854b1fa187fb6220d39354f57"
+    },
+    {
+      "path": "web/assets/brand-icon.png",
+      "bytes": 69216,
+      "sha256": "1e9e4ae12ead96e026f911e1e4922fe13fd58df4fa2e00cd4aa3001b4a2200ee"
+    },
+    {
+      "path": "web/assets/brand-mascot.jpg",
+      "bytes": 36010,
+      "sha256": "cda5e36283ebec653000e38043c373f78b044782256cc22ba53b58ca1de7c125"
+    },
+    {
+      "path": "web/assets/calls.css",
+      "bytes": 3375,
+      "sha256": "08c58887ed89ceb1962fa9c71657a8470a5c57c168fedd841f7f04f1c4e7cd09"
+    },
+    {
+      "path": "web/assets/calls.js",
+      "bytes": 14555,
+      "sha256": "d10e44e098cf9839d91d50f8b579894f167f9666a93ff30531265b208f72ce16"
+    },
+    {
+      "path": "web/assets/chat-viewport.js",
+      "bytes": 3921,
+      "sha256": "0f98925976cbc3d3c7f0a81d5f9e5cb79d780627bfd275d5fec8b22cc05444e8"
+    },
+    {
+      "path": "web/assets/config.js",
+      "bytes": 136,
+      "sha256": "95b502dda182f10fa7ca12543add67a0d61f325a563b21b440c772ebe652cbd5"
+    },
+    {
+      "path": "web/assets/enterprise-data.css",
+      "bytes": 10514,
+      "sha256": "9e4972feda461047ed845179fa3ac1c4a1393c663d54a8f9f34a2f1a5583b252"
+    },
+    {
+      "path": "web/assets/enterprise-data.js",
+      "bytes": 14037,
+      "sha256": "e6c8e375acf61e81524c54c298402101102d2713db3c1c135aa2b409e92816ca"
+    },
+    {
+      "path": "web/assets/enterprise.css",
+      "bytes": 19791,
+      "sha256": "4eb8298579555c2e6612c05b1b2f8af8d264d693c29ead2dc6d6ce339cc895c9"
+    },
+    {
+      "path": "web/assets/enterprise.js",
+      "bytes": 27761,
+      "sha256": "b92783d7a6ca59a2771b65d72d4ba3dc60cb4e69bbef984ff2524c461a83dc03"
+    },
+    {
+      "path": "web/assets/features-v12.css",
+      "bytes": 18162,
+      "sha256": "51857dc9fe4a9e68c42bebe24447ab3a88ba1cdf0553cfdf99ae0a065a0e85f0"
+    },
+    {
+      "path": "web/assets/features.css",
+      "bytes": 6986,
+      "sha256": "9413109f82aeaea86211ea5b980808dad739f18397c007f60405caf8d48bce25"
+    },
+    {
+      "path": "web/assets/icon.svg",
+      "bytes": 92444,
+      "sha256": "00a0f155b3b2ee06f9951f0fb6fbeaf653e5b6a14e5f7527ce5a2f92bf3a5139"
+    },
+    {
+      "path": "web/assets/icons.js",
+      "bytes": 800,
+      "sha256": "c0aacc697871e41915acfdcd8c119a49dc82142d6499cf56ef322c3730ceb548"
+    },
+    {
+      "path": "web/assets/layout.css",
+      "bytes": 5055,
+      "sha256": "da50989093a9898437630883875e9169145671ffb1cf4125def9aadd3f364408"
+    },
+    {
+      "path": "web/assets/MaShanZheng-OFL.txt",
+      "bytes": 4397,
+      "sha256": "d7bdb1cee215b689e23c2f95672a6084c790542170648267a55114103d756a08"
+    },
+    {
+      "path": "web/assets/native-phone.css",
+      "bytes": 7398,
+      "sha256": "122b834cb711d9f9e27fe7aa9d29144a17ebb5feff223cfc2efdcd66c81ffd7a"
+    },
+    {
+      "path": "web/assets/native.js",
+      "bytes": 5129,
+      "sha256": "455246ae1449ee06f78346571000f3f1b5a2ba626174b893833149cdd2d4bb67"
+    },
+    {
+      "path": "web/assets/NotoSerifSC-OFL.txt",
+      "bytes": 4350,
+      "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6"
+    },
+    {
+      "path": "web/assets/qr.js",
+      "bytes": 7358,
+      "sha256": "e1c8dda87e5722604b3806932537b63e8ac29cea583c9779f91350c6af019445"
+    },
+    {
+      "path": "web/assets/reminders.css",
+      "bytes": 1514,
+      "sha256": "3f95610401cdccad0fc84186f6eb748451252d1191af226fd85aa68261cbc5dd"
+    },
+    {
+      "path": "web/assets/reminders.js",
+      "bytes": 1850,
+      "sha256": "b7008af254d09e063c39a2db3f10b523f61230fe24fc711ca8d5018863d90306"
+    },
+    {
+      "path": "web/assets/vendor-jsqr.js",
+      "bytes": 256974,
+      "sha256": "fe9b048dd699a529dc55e2e14b556b82b85e2c72fc7a85ccce89429ba162d8e5"
+    },
+    {
+      "path": "web/assets/vendor-qrcode.js",
+      "bytes": 51907,
+      "sha256": "ea91d7118a5395289170da848b7c6758b996163bfbccf312591ab65a4911b7c0"
+    },
+    {
+      "path": "web/assets/welcome-script.ttf",
+      "bytes": 5532,
+      "sha256": "4dc7d311899adca3ccfeabbb026a3dfb34ae9e85ba066fa1f1f5a3830a2ffc94"
+    },
+    {
+      "path": "web/assets/welcome-song.ttf",
+      "bytes": 6380,
+      "sha256": "9d6feb5fdc6eb8197e2c54f197b23b5a68c8afe3bf785af6ec8060f6939a1431"
+    },
+    {
+      "path": "web/assets/welcome.css",
+      "bytes": 1946,
+      "sha256": "90bf25d2b2efb21d7d2c0a78c1c1969e79809090e6b6dfe1f0179ecb3d304fce"
+    },
+    {
+      "path": "web/assets/welcome.js",
+      "bytes": 3440,
+      "sha256": "b59ad72061e43aaf30e466aabdae43d294248fa384fc4ef9a4c316d81ce1baef"
+    },
+    {
+      "path": "web/assets/workflows.css",
+      "bytes": 15859,
+      "sha256": "258dd17c6c8e6b13fd9f4cb59b4f3a1482a1bb4e50e7811306dffa362b53bbe1"
+    },
+    {
+      "path": "web/assets/workflows.js",
+      "bytes": 16396,
+      "sha256": "f0fb625435944144b5c1239e421775a3975a8d824ee5bd80a3aa0a65c830a6ea"
+    },
+    {
+      "path": "web/home.html",
+      "bytes": 9976,
+      "sha256": "66e6bd18025ee81eb9e8cc57a611a87170f8a52bf3dea3ba6fbd53d0c1947aa2"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 2398,
+      "sha256": "d50395ba97dc7c3813804167b2fc3965b6e3dbe8e13b4f17cbc34ee87cc970d3"
+    },
+    {
+      "path": "web/install.html",
+      "bytes": 7349,
+      "sha256": "4d20f12117993ee785232100968027fe6569f13a38fa47beccf870fa4300c2ca"
+    },
+    {
+      "path": "web/showcase.html",
+      "bytes": 1481,
+      "sha256": "79a78ad4e28630341b417ffbc21bd8999986f33843cb32dceefb7a16af7bab11"
+    },
+    {
+      "path": "web/site/download-code.svg",
+      "bytes": 11594,
+      "sha256": "9998e9019d7b85bb4c6fe2b8d5e60c988d5e4edc5ff6ec552fc5133d606e163d"
+    },
+    {
+      "path": "web/site/home.css",
+      "bytes": 14055,
+      "sha256": "ffa2f39945f80854f8559c32b313bc9d0df67c44b03d40d16b34fb43fa87c85d"
+    }
+  ]
+}

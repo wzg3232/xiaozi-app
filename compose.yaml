@@ -1,0 +1,14 @@
+services:
+  ichat:
+    build: .
+    ports:
+      - "4200:4200"
+    environment:
+      HOST: 0.0.0.0
+      PORT: 4200
+      DB_PATH: /app/data/ichat.sqlite
+    volumes:
+      - ichat-data:/app/data
+    restart: unless-stopped
+volumes:
+  ichat-data:

@@ -1,0 +1,11 @@
+node_modules
+tools
+build-tools
+reference
+recording
+deliverables
+data
+.env
+.git
+android
+ios

@@ -1,0 +1,11 @@
+@font-face{font-family:XiaoziWelcomeScript;src:url('./welcome-script.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:XiaoziWelcomeSong;src:url('./welcome-song.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+.welcome-screen[hidden]{display:none!important}
+.welcome-screen{position:fixed;inset:0;z-index:150;display:grid;place-items:center;overflow-y:auto;background:#fff;color:#7b238c;padding:calc(32px + env(safe-area-inset-top,0px)) max(20px,env(safe-area-inset-right,0px)) calc(85px + env(safe-area-inset-bottom,0px)) max(20px,env(safe-area-inset-left,0px));isolation:isolate}
+.welcome-content{display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;padding-top:24px;text-align:center;animation:xiaozi-welcome-appear .7s ease-out both}
+.welcome-mascot{display:block;width:min(62vw,260px);max-height:45dvh;height:auto;object-fit:contain;background:white;flex:none}
+.welcome-slogan{font-family:XiaoziWelcomeScript,"STXingkai","Xingkai SC","KaiTi","Kaiti SC",cursive;font-size:clamp(27px,7.5vw,39px);font-weight:400;line-height:1.6;letter-spacing:.06em;color:#7b238c;margin:70px 0 10px;white-space:nowrap}
+.welcome-company{position:absolute;bottom:calc(24px + env(safe-area-inset-bottom,0px));left:16px;right:16px;margin:0;text-align:center;font-family:XiaoziWelcomeSong,"Songti SC","SimSun","STSong",serif;font-size:11px;font-weight:400;line-height:1.8;letter-spacing:.02em;color:#888}
+@keyframes xiaozi-welcome-appear{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
+@media(max-height:520px){.welcome-screen{padding-top:15px;padding-bottom:65px}.welcome-content{padding-top:0}.welcome-mascot{max-height:44dvh}.welcome-slogan{font-size:27px;margin-top:10px}.welcome-company{bottom:calc(12px + env(safe-area-inset-bottom,0px))}}
+@media(prefers-reduced-motion:reduce){.welcome-content{animation:none}}

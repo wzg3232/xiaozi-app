@@ -1,0 +1,39 @@
+小紫在 1.4.1 服务端源码与部署说明
+
+当前线上地址：https://chat.pvdust.com；本次源码导出没有执行线上变更。
+当前应用代码目录：/opt/ichat-studio/releases/1.4.0（已叠加 1.4.1 静态补丁）。
+应用服务：ichat-studio.service，仅监听 127.0.0.1:4220。
+运行时：/opt/ichat-studio/runtime/node-v24.19.0-linux-x64/bin/node。
+数据：/var/lib/ichat-studio/ichat.sqlite；上传：/var/lib/ichat-studio/uploads。
+本应用代理：/etc/nginx/sites-available/ichat-studio。
+模型私有环境配置：/etc/ichat-studio/enterprise.env（没有包含在源码内）。
+1.4.1 只更新客户端/网站资源，服务端源码沿用 1.4.0；API 健康接口仍可能显示 1.2.0 协议版本。
+
+在新环境启动
+1. 安装 Node.js 24.15 或以上，执行 npm ci --no-fund --no-audit、npm run build。
+2. 配置 HOST=127.0.0.1、PORT=4220、独立 DB_PATH 与 MEDIA_DIR。
+   ALLOWED_ORIGINS 应列出实际 HTTPS 域名及 http://localhost、https://localhost、capacitor://localhost。
+   仅在可信的本机反向代理覆盖 X-Real-IP 时配置 TRUST_PROXY=loopback。
+3. 以 node --env-file=/安全路径/私有环境文件 server/index.mjs 启动；不要加 --demo。
+4. 用本应用专属 HTTPS 虚拟主机代理至回环端口，确保 WebSocket Upgrade 转发。
+   媒体上传限制按既有配置处理；为独立数据路径和日志配置持久化及备份。
+5. 通过 /api/health 检查服务；另行放置正式 APK 至 dist/downloads，供安装页链接下载。
+   若更换服务器域名，重设 ICHAT_SERVER_URL 后重新构建手机包。
+
+Docker 可选方案
+compose.production.yaml 将应用监听端口绑定至 127.0.0.1:4220，并使用独立数据卷。
+在已有应用服务器上先检查端口和卷规划，避免与当前 systemd 服务争用。
+该模板不自动注入 LLM 或企业鉴权；需要由维护者以私有环境文件/挂载补充。
+deploy/Caddyfile 为可选 Caddy 参考，不能直接作为当前 Nginx 站点的替代配置。
+
+小紫模型配置
+在服务端私有环境中设置：
+    XIAOZI_LLM_BASE_URL=https://api.peaces-lab.com/v1
+    XIAOZI_LLM_MODEL=gpu2080ti-qwen3.8-27b
+    XIAOZI_LLM_API_KEY=REPLACE_ON_SERVER_ONLY
+BASE_URL 不附加 /chat/completions，程序会自行拼接该路径。
+企业查询、成员权限和审批人配置见企业平台与小紫接入说明.md。
+
+维护现有主机时只操作小紫在应用的目录、unit、虚拟主机与数据。
+数据库备份须使用 SQLite 一致性备份，并同时保留上传目录；不能只复制正在写入的主库。
+本包不包含历史主机升级脚本、生产账号数据库或运行时私有配置。
